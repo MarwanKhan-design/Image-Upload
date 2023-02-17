@@ -34,5 +34,6 @@ mongoose.connect(
   { useNewUrlParser: true },
   () => console.log("connected to DB")
 );
+mongoose.set("strictQuery", false);
 
 app.listen(3000, () => console.log("App running on port 3000"));
