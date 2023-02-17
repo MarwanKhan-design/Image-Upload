@@ -3,6 +3,7 @@ import morgan from "morgan";
 import mongoose from "mongoose";
 import cors from "cors";
 import fileUpload from "express-fileupload";
+import path from "path";
 
 // Import Routes
 import PostRoutes from "./routes/post.js";
