@@ -30,7 +30,7 @@ app.use("/api/posts", PostRoutes);
 
 // Listeners
 mongoose.connect(
-  "mongodb://127.0.0.1:27017/image-upload",
+  "mongodb+srv://image:imgpass@cluster0.7rtbjro.mongodb.net/?retryWrites=true&w=majority ",
   { useNewUrlParser: true },
   () => console.log("connected to DB")
 );
